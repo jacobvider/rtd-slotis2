@@ -16,11 +16,13 @@ How to get vscode running on the camera computer:
   sudo -s
 
 - Navigate to the directory containing the cpp files: 
+
 .. code-block:: console
 
     cd /opt/PrincetonInstruments/picam/samples/source code/platform independent
 
 - Run the following command to open all .cpp files:
+
 .. code-block:: console
 
     code --no-sandbox --user-data-dir=$HOME/.vscode-root ./*.cpp”
