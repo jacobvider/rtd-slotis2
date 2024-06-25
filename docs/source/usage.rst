@@ -41,7 +41,8 @@ Navigate to the folder containing make files, and generate a new make file:
 To run the executable: 
 
 .. code-block:: console
-  ./[file]’ [arguments]
+
+  ./[file] [arguments]
 
 
 To use Lumache, first install it using pip:
