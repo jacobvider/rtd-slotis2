@@ -12,8 +12,8 @@ How to get vscode running on the camera computer:
 - Run commands as the root user:
 
 .. code-block:: console
-
-  (.venv) $ sudo -s
+  
+  sudo -s
 
 - Navigate to the directory containing the cpp files: 
 .. code-block:: console
