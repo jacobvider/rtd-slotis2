@@ -5,12 +5,39 @@ Usage
 
 Installation
 ------------
+PICam Installation:
+
+
+How to get vscode running on the camera computer:
+
+Open terminal
+
+Run commands as the root user:
+
+.. code-block:: console
+(.venv) $ sudo -s
+
+Navigate to the directory containing the cpp files: 
+.. code-block:: console
+(.venv) $ cd /opt/PrincetonInstruments/picam/samples/source code/platform independent
+
+Run the following command to open all .cpp files:
+.. code-block:: console
+(.venv) $ code --no-sandbox --user-data-dir=$HOME/.vscode-root ./*.cpp”
+
+Substitute the * to open a specific file
+
+Compiling and running the code:
+Navigate to the folder containing make files: ‘/opt/PrincetonInstruments/picam/samples/projects/gcc’
+Run make -f [file].mk
+If no errors, navigate to: ‘/opt/PrincetonInstruments/picam/samples/projects/gcc/objlin/x86_64/debug’
+Run ‘./[file]’, and any additional arguments
+
 
 To use Lumache, first install it using pip:
 
-.. code-block:: console
 
-   (.venv) $ pip install lumache
+  pip install lumache
 
 Creating recipes
 ----------------
