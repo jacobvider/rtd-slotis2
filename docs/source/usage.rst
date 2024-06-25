@@ -3,29 +3,26 @@ Usage
 
 .. _installation:
 
-Installation
+PICam Installation
 ------------
-PICam Installation:
-
-
 How to get vscode running on the camera computer:
 
-Open terminal
+- Open terminal
 
-Run commands as the root user:
+- Run commands as the root user:
 
 .. code-block:: console
 (.venv) $ sudo -s
 
-Navigate to the directory containing the cpp files: 
+- Navigate to the directory containing the cpp files: 
 .. code-block:: console
 (.venv) $ cd /opt/PrincetonInstruments/picam/samples/source code/platform independent
 
-Run the following command to open all .cpp files:
+- Run the following command to open all .cpp files:
 .. code-block:: console
 (.venv) $ code --no-sandbox --user-data-dir=$HOME/.vscode-root ./*.cpp”
 
-Substitute the * to open a specific file
+- Substitute the * to open a specific file
 
 Compiling and running the code:
 Navigate to the folder containing make files: ‘/opt/PrincetonInstruments/picam/samples/projects/gcc’
