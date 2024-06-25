@@ -1,17 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to the SuperLOTIS UV camera documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+**SuperLOTIS** (Livermore Optical Transient Imaging System) is an optical, robotic 60cm telescope located at the Kitt Peak National Observatory (KPNO), in Tucson, Arizona. It is the first ground-based optical telescope adapted for NUV observations of transients. The telescope utilizes the SOPHIA 2048B UV instrument for exposures. 
+SOPHIA is an ultra low-noise CCD camera with high sensitivity for UV/VIS observations. This camera and the associated API was developed by Princeton Instruments. 
+This camera will take exposures of transients identified in the Swift/UVOT Serendipitous source catalog. The amount of time for each exposure will vary depending on the brightness of the target. 
 
 Contents
 --------
