@@ -21,23 +21,27 @@ How to get vscode running on the camera computer:
 
     cd /opt/PrincetonInstruments/picam/samples/source code/platform independent
 
-- Run the following command to open all .cpp files:
+- Open all .cpp files, substituting the * with the file name for a specific file
 
 .. code-block:: console
 
     code --no-sandbox --user-data-dir=$HOME/.vscode-root ./*.cpp”
 
-- Substitute the * to open a specific file
-
 Compiling and running the code:
 Navigate to the folder containing make files, and generate a new make file:
+
 .. code-block:: console
 
     cd /opt/PrincetonInstruments/picam/samples/projects/gcc
+
     make -f [file].mk
 
-If no errors, navigate to: ‘/opt/PrincetonInstruments/picam/samples/projects/gcc/objlin/x86_64/debug’
-Run ‘./[file]’, and any additional arguments
+    cd /opt/PrincetonInstruments/picam/samples/projects/gcc/objlin/x86_64/debug
+
+To run the executable: 
+
+.. code-block:: console
+  ./[file]’ [arguments]
 
 
 To use Lumache, first install it using pip:
