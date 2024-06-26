@@ -5,7 +5,7 @@ Usage
 
 PICam Installation
 ------------
-How to get vscode running on the camera computer:
+How to get vscode running on the centos camera computer:
 
 - Open terminal
 
